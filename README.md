@@ -8,15 +8,17 @@ Each day has its own directory in `solutions`. For each day there are two script
 
 The examples given in both parts are included as unit tests. In some cases I may include additional tests.
 
+Some days I might include solutions in other programming languages just for fun.
+
 ## How to use
 
 1. Clone the repo
-2. To get the solution: `python solutions/day<XY>/part<Z>.py`
+2. To get the solution: `make day<XY>`
 3. To run the unit tests: `python -m unittest tests/test_day<XY>.py`
 
 ## Progress
 
-- [x] Day 1
+- [x] Day 1 (Python, C)
 - [ ] Day 2
 - [ ] Day 3
 - [ ] Day 4
