@@ -16,7 +16,7 @@ The examples given in both parts are included as unit tests. In some cases I may
 
 ## Progress
 
-- [ ] Day 1
+- [x] Day 1
 - [ ] Day 2
 - [ ] Day 3
 - [ ] Day 4
