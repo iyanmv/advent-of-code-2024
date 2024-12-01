@@ -1,4 +1,5 @@
 *
+!Makefile
 !*.*
 __pycache__
 .idea
