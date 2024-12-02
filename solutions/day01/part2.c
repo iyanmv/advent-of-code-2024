@@ -26,7 +26,7 @@ int main() {
         sol2 += num * count;
     }
 
-    printf("Advent of Code 2024 (day 1)\n");
+    printf("Advent of Code 2024 (day 1 - C)\n");
     printf("Solution for part 2: %u\n", sol2);
     return 0;
 }

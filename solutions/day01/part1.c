@@ -33,7 +33,7 @@ int main() {
         sol1 += abs(diff);
     }
 
-    printf("Advent of Code 2024 (day 1)\n");
+    printf("Advent of Code 2024 (day 1 - C)\n");
     printf("Solution for part 1: %u\n", sol1);
     return 0;
 }
