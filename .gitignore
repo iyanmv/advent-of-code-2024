@@ -1,6 +1,8 @@
 *
+!*/
 !Makefile
 !*.*
+!input
 __pycache__
 .idea
 
