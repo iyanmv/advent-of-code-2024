@@ -11,7 +11,7 @@ def part_1(string):
 
 
 if __name__ == "__main__":
-    with open("input", "r") as file:
+    with open(module_path / "input", "r") as file:
         text = file.read()
 
     solution = part_1(text)
