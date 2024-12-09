@@ -10,7 +10,7 @@ from part1 import part_1
 from part2 import part_2
 
 
-class TestDay2(unittest.TestCase):
+class TestDay3(unittest.TestCase):
     def setUp(self):
         self.example_1 = (
             "xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))"

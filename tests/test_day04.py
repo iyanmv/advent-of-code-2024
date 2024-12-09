@@ -12,7 +12,7 @@ from part1 import part_1
 from part2 import part_2
 
 
-class TestDay2(unittest.TestCase):
+class TestDay4(unittest.TestCase):
     def setUp(self):
         example = """MMMSXXMASM
 MSAMXMSMSA
