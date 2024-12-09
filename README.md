@@ -24,7 +24,7 @@ Some days I might include solutions in other programming languages just for fun.
 - [x] Day 4
 - [ ] Day 5
 - [x] Day 6
-- [ ] Day 7
+- [x] Day 7
 - [ ] Day 8
 - [ ] Day 9
 - [ ] Day 10
