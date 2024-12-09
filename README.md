@@ -23,7 +23,7 @@ Some days I might include solutions in other programming languages just for fun.
 - [x] Day 3
 - [x] Day 4
 - [ ] Day 5
-- [ ] Day 6
+- [x] Day 6
 - [ ] Day 7
 - [ ] Day 8
 - [ ] Day 9

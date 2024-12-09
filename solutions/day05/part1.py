@@ -30,7 +30,7 @@ def part_1(rules, updates):
 if __name__ == "__main__":
     rules = np.loadtxt(module_path / "input", delimiter="|", max_rows=1176, dtype=int)
     updates = []
-    with open("input", "r") as file:
+    with open(module_path / "input", "r") as file:
         skip = True
         for line in file:
             if line == "\n":
