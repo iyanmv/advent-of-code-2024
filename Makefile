@@ -23,6 +23,7 @@ day04:
 
 day05:
 	python solutions/day05/part1.py
+	python solutions/day05/part2.py
 
 day06:
 	python solutions/day06/part1.py

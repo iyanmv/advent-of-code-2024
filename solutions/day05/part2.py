@@ -1,6 +1,6 @@
 from pathlib import Path
+from functools import cmp_to_key
 
-from graph import Graph
 import numpy as np
 
 module_path = Path(__file__).resolve().parent
@@ -8,29 +8,30 @@ module_path = Path(__file__).resolve().parent
 from part1 import is_valid
 
 
-def generate_new_update(update, rules):
-    graph = Graph()
-    for x, y in rules:
-        if x in update or y in update:
-            graph.add_edge(int(x), int(y))
-    return [num for num in graph.topological_sort() if num in update]
+def compare_numbers(x, y):
+    global rules_dict
+    if (x, y) not in rules_dict:
+        return 0
+    elif rules_dict[(x, y)]:
+        return -1
+    return 1
 
 
 def part_2(rules, updates):
+    global rules_dict
+    rules_dict = dict([((int(x), int(y)), True) for x, y in rules])
     solution = 0
-
     for update in updates:
         if not is_valid(update, rules):
-            new_update = generate_new_update(update, rules)
+            new_update = sorted(update, key=cmp_to_key(compare_numbers))
             solution += new_update[len(new_update) // 2]
-
     return solution
 
 
 if __name__ == "__main__":
-    rules = np.loadtxt("input", delimiter="|", max_rows=1176, dtype=int)
+    rules = np.loadtxt(module_path / "input", delimiter="|", max_rows=1176, dtype=int)
     updates = []
-    with open("input", "r") as file:
+    with open(module_path / "input", "r") as file:
         skip = True
         for line in file:
             if line == "\n":
