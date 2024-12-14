@@ -30,8 +30,8 @@ Some days I might include solutions in other programming languages just for fun.
 - [x] Day 10
 - [x] Day 11
 - [x] Day 12
-- [X] Day 13
-- [ ] Day 14
+- [x] Day 13
+- [x] Day 14
 - [ ] Day 15
 - [ ] Day 16
 - [ ] Day 17
