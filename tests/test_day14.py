@@ -30,6 +30,6 @@ p=9,5 v=-3,-3
 
     def test_examples_part_1(self):
         self.assertEqual(
-            part_1(self.example, (7, 11), 100),
+            part_1(self.example, (11, 7), 100),
             12,
         )
