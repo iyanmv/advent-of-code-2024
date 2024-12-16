@@ -1,8 +1,8 @@
 CFLAGS  = -Wall -Wextra -Wpedantic
 CFLAGS += -O3
 
-.PHONY: all day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15
-all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15
+.PHONY: all day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16
+all: day01 day02 day03 day04 day05 day06 day07 day08 day09 day10 day11 day12 day13 day14 day15 day16
 
 day01: solutions/day01/part1 solutions/day01/part2
 	python solutions/day01/part1.py
@@ -64,6 +64,10 @@ day14:
 day15:
 	python solutions/day15/part1.py
 	python solutions/day15/part2.py
+
+day16:
+	python solutions/day16/part1.py
+	python solutions/day16/part2.py
 
 solutions/day01/part1: solutions/day01/part1.c
 	$(CC) $(CFLAGS) -o $@ $^
