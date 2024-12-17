@@ -69,6 +69,10 @@ day16:
 	python solutions/day16/part1.py
 	python solutions/day16/part2.py
 
+day17:
+	python solutions/day17/part1.py
+	python solutions/day17/part2.py
+
 solutions/day01/part1: solutions/day01/part1.c
 	$(CC) $(CFLAGS) -o $@ $^
 
