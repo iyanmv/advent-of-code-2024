@@ -10,7 +10,7 @@ from part1 import part_1, parse_program
 from part2 import part_2
 
 
-class TestDay16(unittest.TestCase):
+class TestDay17(unittest.TestCase):
     def setUp(self):
         example_1 = """Register A: 729
 Register B: 0
