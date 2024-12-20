@@ -37,7 +37,7 @@ Some days I might include solutions in other programming languages just for fun.
 - [x] Day 17
 - [x] Day 18
 - [x] Day 19
-- [ ] Day 20
+- [x] Day 20
 - [ ] Day 21
 - [ ] Day 22
 - [ ] Day 23
